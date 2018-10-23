@@ -1,0 +1,43 @@
+body {
+  background-color: snow;
+}
+
+a:hover {
+color: black;
+font-weight: bold;
+}
+
+.index-h1 {
+  color: Navy;
+}
+.paragraph{
+  color: black;
+  font-family: verdana;
+  font-size: 12px
+}
+
+.customlist{
+  color: deeppink;
+  font-family: fantasy;
+}
+
+#maintitle{
+  font-family:fantasy;
+}
+
+#list {
+  color: green;
+  font-family: inherit;
+}
+#list2 {
+  color: firebrick;
+  font-family: inherit;
+}
+
+#table {
+  color: teal;
+  font-family: verdana
+}
+#p2 {
+  font-weight: lighter;
+}

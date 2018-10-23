@@ -1,0 +1,20 @@
+body {
+  background: url('../images/sand.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+  p{
+    color: #cc33ff
+  }
+
+ul{
+  margin-top: 20px
+}
+ul li{
+  list-style-type: none;
+  display: inline;
+}
+ul li a {
+  pedding: 20px;
+  background: 
+}

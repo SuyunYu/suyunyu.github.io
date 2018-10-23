@@ -1,0 +1,27 @@
+body {
+ background-color: beige;
+ background-image: url('bg.jpeg');
+ background-size: cover;
+ background-position: contain;
+ background-repeat: no-repeat;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+color: black;
+font-weight: bold;
+}
+p a {
+  color:yellow;
+}
+p {
+font-family: sans-serif;
+}
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: lower-alpha;
+}
