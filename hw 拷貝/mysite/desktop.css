@@ -32,6 +32,11 @@ nav {
   padding: 10px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 .left {
   display: inline-block;
   vertical-align: top;
