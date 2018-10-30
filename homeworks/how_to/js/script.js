@@ -1,5 +1,5 @@
 //variabel to track the number of steps
-var totalsteps= 3;
+var totalsteps= 6;
 
 //variatble to track which step be displayed
 var currentstep= 0;
@@ -56,4 +56,11 @@ $('#prev').on('click', function(){
   if(currentstep == 1){
     $('#prev').hide();
   }
+});
+
+$('#finish').on('click', function(){
+  //hide everything again
+  $('.steps li, .controls, #prev').hide();
+  $('.end') .fadeIn(1000);
+
 });
