@@ -6,61 +6,71 @@ header {
   text-align: center;
   padding: 30px
 }
-h1{
+.h1{
+  font-family: Courier;
   text-align: center;
 }
-body {margin:0; pedding:0;}
-.wrapper {
-  display:block;
-  width: 100%
-  max-width: 1000px;
-  min-height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: border-box;
+/* Nav links */
+nav li  {
+   display: inline;
+   text-align: left;
 }
-nav {
-  display:block;
-}
+/* Create two equal columns that align next to each other */
+.column2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    background: #f1f1f1;
+    box-sizing: content-box;
+    margin: 1%;
 
-.navlinks li{
-  display: inline;
 }
-.navlinks a {
-  text-decoration: none;
-  display: inline-block;
-  padding: 10px;
+/* Create three equal columns that align next to each other */
+.column3 {
+    display: inline-block;
+    vertical-align: text-top;
+    width: 40%;
+    box-sizing: content-box;
+    margin: 1.4%;
+    text-align: center;
+    border-style: dashed;
+    border-color: #FFD700;
+    font-weight: lighter;
+
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-.left {
-  display: inline-block;
-  vertical-align: top;
-
-  width: 20%;
-  min-height: 400px;
-  margin-left: 10px;
-  margin-bottom: 10px;
+.columnLeft {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    box-sizing: content-box;
+    margin: 1.4%;
+    border-color: #9ACD32;
+    border-style: dashed;
+}
+.columnRight {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    box-sizing: content-box;
+    margin: 1.4%;
+    border-color: #9ACD32;
+    border-style: dashed;
+}
+.gallery {
+  text-align: center;
+  font-family: Courier
+}
+.gallery img {
+  width:200px;
   margin: 10px;
-  padding: 30px;
-
+  border: 2px solid white;
 }
-.right {
-  display: inline-block;
-  vertical-align: top;
-  width: 60%;
-  min-height: 500px;
-  background: #333333;
+.gallery img:hover {
+  border: 2px solid orange;
+}
 
-  margin: 10px;
-  padding: 30px;
-  }
   footer{
     display: block;
 
-    padding: 10px;
+    padding: 5px;
   }

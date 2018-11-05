@@ -1,47 +1,48 @@
-header{
-  background-color:#FFFFFF;
-  color: #191970;
-  font-family:courier new;
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color:#FFE4E1
 }
-body {margin:0; pedding:0;}
-.wrapper {
-
-  background: #CCCCCC;
-
+header {
+    background-color: #FFFFFF;
+    color: #000080;
+    text-align: center;
+    padding: 20px;
+    font-family: courier new;
 }
+/* The navbar container */
 nav {
-
-  background-color:#4169E1;
-
+   overflow: hidden;
+   background-color: #4169E1;
 }
 
-.navlinks {
-  list-style-type: none;
+/* Nav links */
+nav li  {
+   color: #f2f2f2;
+   text-decoration: none;
 }
-.navlinks li {
-  display: inline;
+nav a  {
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
 }
-.navlinks a {
+/* Links - change color on hover */
+nav a:hover {
+   background-color: #ddd;
+   color: black;
+}
+/* Create two equal columns that align next to each other */
 
+/* Create three equal columns that align next to each other */
+.column2, .column3, .columnLeft, .columnRight {
+    background: #f1f1f1;
+    min-height: 200px;
+}
+
+footer {
+  padding: 10px;
   color: white;
-
+  background: black
 }
-.left {
-
-  background: white;
-
-
-}
-.right {
-
-  background: #333333;
-  color: white;
-
-  }
-  footer{
-
-    background: black;
-    color: white;
-
-  }
