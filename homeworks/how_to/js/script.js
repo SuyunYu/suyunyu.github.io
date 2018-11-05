@@ -64,3 +64,13 @@ $('#finish').on('click', function(){
   $('.end') .fadeIn(1000);
 
 });
+
+$('h2').on('mouseover', function(){
+  $(this).css('color','green');
+});
+$('h2').on('mouseleave', function(){
+  $(this).css('color','black');
+});
+$('#end').on ('click', function(){
+  locaton.reload();
+});
