@@ -24,6 +24,7 @@ nav li  {
     box-sizing: content-box;
     margin: 1%;
 
+
 }
 /* Create three equal columns that align next to each other */
 .column3 {
@@ -55,6 +56,15 @@ nav li  {
     margin: 1.4%;
     border-color: #9ACD32;
     border-style: dashed;
+}
+
+.right {
+  display: inline-block;
+  box-sizing: border-box;
+  position: absolute;
+
+  width: 40%;
+  background-color: #4169E1
 }
 .gallery {
   text-align: center;
