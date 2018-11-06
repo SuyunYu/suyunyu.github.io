@@ -62,9 +62,9 @@ nav li  {
   display: inline-block;
   box-sizing: border-box;
   position: absolute;
-
-  width: 40%;
-  background-color: #4169E1
+  text-align: center;
+  width: 30%;
+  background-color: #FFFFFF
 }
 .gallery {
   text-align: center;
