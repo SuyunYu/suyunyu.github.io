@@ -1,0 +1,11 @@
+header {
+    background-color: #FFFFFF;
+    color: #000080;
+    text-align: center;
+    padding: 20px;
+    font-family: courier new;
+}
+nav {
+   overflow: hidden;
+   background-color: #DC143C;
+}
